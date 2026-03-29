@@ -7,4 +7,4 @@ dotenv.config({ path: "./.env" });
 
 if(!process.env.DATABASE_URL) throw new Error("DATABASE is required");
 const sql = neon(process.env.DATABASE_URL);
-export const index = drizzle(sql);
+export const db = drizzle(sql);
