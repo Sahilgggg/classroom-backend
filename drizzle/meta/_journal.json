@@ -15,6 +15,13 @@
       "when": 1774797255444,
       "tag": "0001_massive_sumo",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1774889457046,
+      "tag": "0002_optimal_roughhouse",
+      "breakpoints": true
     }
   ]
 }
