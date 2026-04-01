@@ -1,7 +1,7 @@
 type Schedule = {
-    day: string;
-    startTime: string;
-    endTime: string;
+  day: string;
+  startTime: string;
+  endTime: string;
 };
 
 type UserRoles = "admin" | "teacher" | "student";
